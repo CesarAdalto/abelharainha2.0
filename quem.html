@@ -1,0 +1,323 @@
+<html lang="pt">
+<head>
+    <title>Quem somos nós</title>
+    <link rel="shortcut icon" href="image/icon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: #f7375a;
+        }
+        
+        .navbar a{
+            color: white;
+        }
+
+        .navbar a:hover{
+            color: #FE8DA8;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: black;
+            padding: 5px;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            /* Set width to 100% */
+            margin: auto;
+            min-height: 400px;
+        }
+
+        body {
+            background-color: #FE8DA8;
+            font-family: monospace;
+        }
+
+        .logoimg {
+            display: block;
+            width: 50px;
+            position: relative;
+            z-index: 999;
+            margin-left: 0;
+        }
+
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+        @media (max-width: 600px) {
+            .carousel-caption {
+                display: none;
+            }
+        }
+
+        .footertitle {
+            font-size: 30px;
+            color: #FE8DA8;
+            margin-top: 2%;
+            float: right;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            font-family: Black And White Picture;
+        }
+
+        .whatsapp {
+            color: #FE8DA8;
+            margin-top: 4%;
+            float: left;
+            position: relative;
+            margin-bottom: 2%;
+            font-size: 25px;
+            font-family: Black And White Picture;
+            text-align: center;
+            width: 33.3%;
+        }
+
+        .whatsapp a {
+            color: #FE8DA8;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        .whatsapp a:hover {
+            color: #e25f7d;
+        }
+
+        .facebook {
+            color: #FE8DA8;
+            margin-top: 4%;
+            float: left;
+            position: relative;
+            margin-bottom: 2%;
+            font-size: 25px;
+            font-family: Black And White Picture;
+            text-align: center;
+            width: 33.3%;
+        }
+
+        .facebook a {
+            color: #FE8DA8;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        .facebook a:hover {
+            color: #e25f7d;
+        }
+
+        .email {
+            color: #FE8DA8;
+            margin-top: 4%;
+            float: left;
+            position: relative;
+            margin-bottom: 2%;
+            font-size: 25px;
+            font-family: Black And White Picture;
+            text-align: center;
+            width: 33.3%;
+        }
+
+        @media (max-width: 600px) {
+            footer .footertitle {
+                width: 100%;
+                font-size: 20px;
+                position: relative;
+                margin-top: 2%;
+                text-align: center;
+                margin-bottom: 2%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            footer .whatsapp {
+                width: 100%;
+                font-size: 15px;
+                position: relative;
+                margin-bottom: 1%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            footer .facebook {
+                width: 100%;
+                font-size: 15px;
+                position: relative;
+                margin-bottom: 1%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            footer .email {
+                width: 100%;
+                font-size: 15px;
+                position: relative;
+                margin-bottom: 1%;
+            }
+        }
+
+        @media(max-width: 600px){
+            .mapa{
+                width: 100%;
+                position: relative;
+                margin-bottom: 1%;
+            }
+        }
+
+        @media(max-width: 600px){
+            .horarios{
+                width: 100%;
+                position: relative;
+                margin-bottom: 1%;
+                margin-top: 5%;
+            }
+        }
+
+        @media(min-width: 601px){
+            .mapa{
+                width: 50%;
+                position: relative;
+                margin-bottom: 2%;
+            }
+        }
+
+        @media(min-width: 601px){
+            .horarios{
+                width: 50%;
+                position: relative;
+            }
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: #FE8DA8;">
+                    <span class="icon-bar" style="color: white;"></span>
+                    <span class="icon-bar" style="color: white;"></span>
+                    <span class="icon-bar" style="color: white;"></span>
+                </button>
+                <img class="logoimg" src="image/icon.png" />
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="index.html">Home</a></li>
+                    <li class=""><a href="quem.html">Sobre nós</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catálogo Online
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank"
+                                    href="https://drive.google.com/file/d/1yuboFPRbaHy77sTC8xQjMS76JImwyOwW/view">Catálogo
+                                    Out/Nov/Dez 2020</a></li>
+                            <li><a target="_blank"
+                                    href="https://drive.google.com/file/d/1TI88NbOsfaBKazzVq4_SrEVKHGlUAkyC/view">Catálogo
+                                    Nov/Dez/Jan 2021</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://api.whatsapp.com/send?phone=5511949590259"><span
+                                class="glyphicon glyphicon-log-in"></span> Seja uma revendedora
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Sobre nós</h1>
+
+    <div style= "height: auto; padding: 5%; width: 100%; float: left;">
+        <div class="mapa" id="mapa" style="float: left; position: relative; height: 400px; padding: 0% 2% 0% 2%">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.1843646044995!2d-46.44189364997682!3d-23.417706362112007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8a275debc483%3A0xf78616dd04824300!2sR.%20Ichu%2C%20600%20-%20Jardim%20Pres.%20Dutra%2C%20Guarulhos%20-%20SP%2C%2007171-120!5e0!3m2!1spt-BR!2sbr!4v1610553234284!5m2!1spt-BR!2sbr"
+                frameborder="0" style="border:0; width: 100%; height: 100%" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+        <div class="horarios" id="horarios" style="float: left; position: relative; padding: 0% 2% 0% 2%">
+            <h3 style="margin-top: 0;">
+                Horários de atendimento:
+            </h3>
+            <ul>
+                <li>
+                    Domingo: Fechado
+                </li>
+
+                <li>
+                    Segunda: 09:00 - 18:00
+                </li>
+
+                <li>
+                    Terça: 09:00 - 18:00
+                </li>
+
+                <li>
+                    Quarta: 09:00 - 18:00
+                </li>
+
+                <li>
+                    Quinta: 09:00 - 18:00
+                </li>
+
+                <li>
+                    Sexta: 09:00 - 18:00
+                </li>
+
+                <li>
+                    Sábado: 09:00 - 15:00
+                </li>
+            </ul>
+        </div>
+    </div>
+    </ul>
+
+    </div>
+    </nav>
+
+
+    </div>
+
+    </div><br>  
+    
+
+    <footer class="container-fluid" style="width: 100%; float: left;">
+        <div class="footertitle"><b>
+                Distribuidora Andreia
+                </b></div>
+
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=5511949590259" target="_blanck">
+                <b><img src="image/whatsapp.png" style="width: 30px; height:30px;" alt="Image"> (11)94959-0259</b></a>
+
+        </div>
+
+        <div class="facebook">
+            <a href="https://www.facebook.com/abelha.rainha.37051579" target="_blanck">
+                <img src="image/facebook" style="width: 30px; height:30px;" alt="Image"> Abelha.rainha</a>
+        </div>
+
+        <div class="email">
+            <b><img src="image/email.png" style="width: 30px; height:30px;" alt="Image"> Abelharainhaadeia@gmail.com</b>
+        </div>
+    </footer>
+
+</body>
+
+</html>
